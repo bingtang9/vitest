@@ -1,6 +1,6 @@
 Tests are split by categories. Default categories are:
 
-## core
+## unit
 
 These tests are running in different pools with a single config file. If you just need to test a function call, you can place your test here.
 
@@ -10,7 +10,7 @@ This is the only test category that doesn't start new Vitest instance for every 
 
 Place your test here if you are testing a config option.
 
-## cli
+## e2e
 
 If you are testing a complex interaction, place your tests here.
 Type-focused fixtures live under `test/e2e/dts/`.
